@@ -49,7 +49,7 @@ First lecture starts at **10.05.2020** 10:00-13:00.
 - Gmail account
 {{< /hint >}}
 
-{{< button href="https://www.anaconda.com" >}}Get Anaconda{{< /button >}}
+
 
 {{< button href="https://www.brave.com" >}}Get Brave browser {{< /button >}}
 
