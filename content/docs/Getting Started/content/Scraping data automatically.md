@@ -1,5 +1,5 @@
 ---
-title: 'Automating Data Scraping 🔐'
+title: 'Automated Data Scraping 🔐'
 bookFlatSection: true
 date: 2019-02-11T19:27:37+10:00
 draft: false
