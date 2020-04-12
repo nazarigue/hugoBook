@@ -13,9 +13,9 @@ This is not systematic going deep into details course. This is a roadmap, to sho
 
 The main outcome of this course is to deliver knowledge, that is useful to you. Remember, useful means something you can use, to achieve your goals!
 
-**Naz**
+**Nazari Goudin**
 
-Co-Founder of Aligner. Data Science and Management PhD Student. Write to me at [Linkedin](https://www.linkedin.com/in/nazari-goudin-556a55165/ "Naz LinkedIn Profile").
+Co-Founder of Aligner. Data Science and Management PhD Student. Write to me at [LinkedIn](https://www.linkedin.com/in/nazari-goudin-556a55165/ "Naz LinkedIn Profile").
 
 
 {{< hint green >}}
