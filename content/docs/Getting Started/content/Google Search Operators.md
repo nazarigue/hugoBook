@@ -2,7 +2,7 @@
 title: 'Google Search Operators'
 date: 2019-02-11T19:27:37+10:00
 draft: false
-weight: 4
+weight: 3
 ---
 
 ## Using Operators in Google Search
@@ -29,40 +29,3 @@ Reference: [Moz Operators Guide](https://moz.com/learn/seo/search-operators "Moz
 
 More samples: [67 Samples](https://moz.com/blog/mastering-google-search-operators-in-67-steps "67 samples")
 
-# How to search for jobs like a pro?
-
-type into google:
-
-site:careers.*.com
-
-* Is an asterisk for saying to google: 
-
-Find me website with PATTERNS like careers.*.com that can be anything inside *. 
-
-Look at the results:
-
-
-
-Tons of private companies listed.
-
-Next step, we have to search for designers. 
-
-site:careers.*.com  inurl: designer
-
-
-
-And we have all designer jobs!
-
-Add dates filter to it! We want last month results so we are up-to-date!
-
-
-
-Here we go!
-
-Estonian version.
-
-**site:.ee intitle:töö disainer**
-
-
-
-# **YOU NEED TO BECOME GREAT AT SEARCH. KNOWLEDGE IS THE REAL POWER.**

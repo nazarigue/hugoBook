@@ -44,7 +44,8 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 $hint-colors: (
   info: #6bf,
   warning: #fd6,
-  danger: #f66
+  danger: #f66,
+  green: rgb(11, 131, 0),
 ) !default;
 
 $icon-filter: none !default;

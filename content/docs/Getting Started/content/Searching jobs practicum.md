@@ -1,5 +1,5 @@
 ---
-title: 'Practicum 1 Searching Jobs'
+title: 'Searching for Jobs Practicum 🔐'
 date: 2019-02-11T19:27:37+10:00
 draft: false
 weight: 4
@@ -24,45 +24,55 @@ Let's learn most essential operators:
 
 
 
-
 Reference: [Moz Operators Guide](https://moz.com/learn/seo/search-operators "Moz reference on Operators")
 
 More samples: [67 Samples](https://moz.com/blog/mastering-google-search-operators-in-67-steps "67 samples")
 
-# How to search for jobs like a pro?
 
-type into google:
+## This part will be fully unlocked at the lecture.
 
-site:careers.*.com
+{{< hint green >}}
+**Registration**  
+All participants must register and be a part of feedback infrastructure.\
+Register here 👇
+{{< /hint >}}
 
-* Is an asterisk for saying to google: 
-
-Find me website with PATTERNS like careers.*.com that can be anything inside *. 
-
-Look at the results:
-
-
-
-Tons of private companies listed.
-
-Next step, we have to search for designers. 
-
-site:careers.*.com  inurl: designer
+{{< button href="https://nazdatascience.typeform.com/to/cIKCtN" >}}Register now{{< /button >}}
 
 
 
-And we have all designer jobs!
+# Schedule
 
-Add dates filter to it! We want last month results so we are up-to-date!
+{{< hint info >}}
+**First lecture**  
+First lecture starts at **26.04.2020** 10:00-13:00. 
+{{< /hint >}}
+{{< hint info >}}
+**Second lecture**  
+First lecture starts at **03.05.2020** 10:00-13:00.
+{{< /hint >}}
+{{< hint info >}}
+**Second lecture**  
+First lecture starts at **10.05.2020** 10:00-13:00.
+{{< /hint >}}
+
+# Add it to your calendar
+
+{{< button href="https://calendar.google.com/calendar/ical/aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com/public/basic.ics" >}}Import Calendar {{< /button >}}
+{{< button href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWg2bWhwYms2c2E2MG0xcG92djNydGN1bW5fMjAyMDA0MjZUMDcwMDAwWiBhbGlnbmVyLmlvX2tkOXR2bGc2aTdwYTRwZzNrM2toOTVtb3VrQGc&tmsrc=aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com&scp=ALL" >}}Google Calendar Invite {{< /button >}}
 
 
+# Prerequisites for software:
+{{< hint danger >}}
+- Computer
+- Google Hangouts Account
+- Latest OS on any system, Mac or Windows
+- Latest Chrome or Chromium-based browser
+- Gmail account
+{{< /hint >}}
 
-Here we go!
+{{< button href="https://www.anaconda.com" >}}Get Anaconda{{< /button >}}
 
-Estonian version.
+{{< button href="https://www.brave.com" >}}Get Brave browser {{< /button >}}
 
-**site:.ee intitle:töö disainer**
-
-
-
-# **YOU NEED TO BECOME GREAT AT SEARCH. KNOWLEDGE IS THE REAL POWER.**
+{{< button href="https://www.google.com/chrome/" >}}Get Chrome browser {{< /button >}}  

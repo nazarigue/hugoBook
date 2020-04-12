@@ -1,4 +1,5 @@
 ---
+draft: true
 menu:
   after:
     name: blog

@@ -1,5 +1,5 @@
 ---
-title: 'DNS'
+title: 'Domain Name System'
 draft: false
 weight: 2
 bookComments: true
@@ -88,11 +88,8 @@ It's called subdomain. It's just a part of root domain. It can be whatever you w
 It's called Top Level Domain. It can be:
 
 - co.uk
-
 - .fr
-
 - .de
-
 - .whatever
 
 **There are many of them, you can check it out. BUT NOT NOW.**

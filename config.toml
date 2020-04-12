@@ -35,8 +35,8 @@ enableGitInfo = false
 #  weight = 10
 
 [[menu.after]]
-  name = "Discord Chat"
-  url = "/"
+  name = "Facebook Page"
+  url = "https://www.facebook.com/Go-Academy-106674224287829/"
   weight = 20
 
 

@@ -1,11 +1,13 @@
 ---
-title: 'Hidden Wisdom In Web 🔐'
+title: 'Analyze Competitors Practicum 🔐'
 date: 2019-02-11T19:27:37+10:00
 draft: false
-weight: 5
+weight: 4
 ---
 
-## This part will be fully unlocked at the lecture.
+# Analyze Competitors Practicum 🔐
+
+## This part will be unlocked at the lecture.
 
 {{< hint green >}}
 **Registration**  

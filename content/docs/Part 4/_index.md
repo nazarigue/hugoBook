@@ -2,6 +2,6 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Automating Processes 🔐
+title: Using Instagram Secret Tools 🔐
 ---
 

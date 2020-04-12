@@ -1,6 +1,6 @@
 ---
 title: Learning to use keyboard
-weight: 1
+weight: 1.0
 ---
 # Commands are the key to efficiency
 

@@ -1,11 +1,11 @@
 ---
-title: 'Practicum 2 Become Google Hacker'
+title: 'Become Google Hacker Practicum 🔐'
 date: 2019-02-11T19:27:37+10:00
 draft: false
 weight: 4
 ---
 
-## Using Operators in Google Search 2
+## Become Google Hacker Practicum
 
 ### Search for Groups in Facebook that are relevant for your business.
 
