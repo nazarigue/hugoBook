@@ -1,7 +1,7 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 1
+weight: 7
 title: Automating Processes 🔐
 ---
 

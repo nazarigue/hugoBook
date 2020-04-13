@@ -1,7 +1,7 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 1
+weight: 6
 title: Hacking LinkedIn 🔐
 ---
 
