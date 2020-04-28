@@ -1,55 +1,49 @@
 ---
-title: 'Find Customers Practicum 🔐'
+title: 'Find Customers Practicum '
 date: 2019-02-11T19:27:37+10:00
 draft: false
 weight: 4
 ---
 
 
-## This part will be fully unlocked at the lecture.
-
 {{< hint green >}}
-**Registration**  
-All participants must register and be a part of feedback infrastructure.\
-Register here 👇
+How to find customers with Google Operators? Google Search is mostly meant for B2B in terms of organic search.
 {{< /hint >}}
 
-{{< button href="https://nazdatascience.typeform.com/to/cIKCtN" >}}Register now{{< /button >}}
+{{< expand "Looking for Governments or Schools" >}}
+## Looking for governments and schools
 
 
+`site:.gov`
 
-# Schedule
+`site:.edu`
 
-{{< hint info >}}
-**First lecture**  
-First lecture starts at **26.04.2020** 10:00-13:00. 
-{{< /hint >}}
-{{< hint info >}}
-**Second lecture**  
-First lecture starts at **03.05.2020** 10:00-13:00.
-{{< /hint >}}
-{{< hint info >}}
-**Second lecture**  
-First lecture starts at **10.05.2020** 10:00-13:00.
-{{< /hint >}}
+`site:.ee intitle:municipality`
 
-# Add it to your calendar
-
-{{< button href="https://calendar.google.com/calendar/ical/aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com/public/basic.ics" >}}Import Calendar {{< /button >}}
-{{< button href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWg2bWhwYms2c2E2MG0xcG92djNydGN1bW5fMjAyMDA0MjZUMDcwMDAwWiBhbGlnbmVyLmlvX2tkOXR2bGc2aTdwYTRwZzNrM2toOTVtb3VrQGc&tmsrc=aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com&scp=ALL" >}}Google Calendar Invite {{< /button >}}
+![](/2020-04-28-19-37-31.png)
 
 
-# Prerequisites for software:
-{{< hint danger >}}
-- Computer
-- Google Hangouts Account
-- Latest OS on any system, Mac or Windows
-- Latest Chrome or Chromium-based browser
-- Gmail account
-{{< /hint >}}
+{{< /expand>}}
 
+{{< expand "Security company as client" >}}
+## Look for security companies
+`site:.ee "security services"`
 
+![](/2020-04-28-19-40-12.png)
+{{< /expand>}}
 
-{{< button href="https://www.brave.com" >}}Get Brave browser {{< /button >}}
+{{< expand "Translation agency as a customer" >}}
+## Find translation agencies
 
-{{< button href="https://www.google.com/chrome/" >}}Get Chrome browser {{< /button >}}
+![](/2020-04-28-19-43-43.png)
+
+{{< /expand>}}
+
+{{< expand "Find software companies" >}}
+## Find software companies
+
+site:.ee "software development service"
+
+![](/2020-04-28-19-45-14.png)
+
+{{< /expand>}}
