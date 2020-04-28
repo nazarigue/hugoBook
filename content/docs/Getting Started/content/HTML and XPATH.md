@@ -1,5 +1,5 @@
 ---
-title: 'HTML and XPath'
+title: 'HTML and XPath ✅'
 date: 2019-02-11T19:27:37+10:00
 draft: false
 weight: 2
@@ -35,7 +35,7 @@ Each paragraph has the opening tag like `<h1>` and closing tag `</h1>`
 
 XPATH is the method, highly used in web scraping, to get content inside HTML tags.
 
-Get ALL elements XPATH
+Get ALL elements XPATH 
 
 |XPATH|Purpose|
 |---|---|
