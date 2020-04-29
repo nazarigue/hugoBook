@@ -1,7 +1,9 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 1
-title: Web Security Fundamentals 🔐
+weight: 2
+title: Passwords
+ 🔐
 ---
 
+1

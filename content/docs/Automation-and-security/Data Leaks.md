@@ -1,7 +1,8 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 6
-title: Hacking LinkedIn 🔐
+weight: 2
+title: Data Leaks 🔐
 ---
 
+1
