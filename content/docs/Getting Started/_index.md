@@ -1,5 +1,5 @@
 ---
-bookCollapseSection: true
+bookCollapseSection: false
 bookFlatSection: false
 weight: 1
 title: Learning Fundamentals Of Web
