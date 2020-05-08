@@ -1,8 +1,8 @@
 ---
 bookCollapseSection: true
 bookFlatSection: false
-weight: 2
-title: Brute Force Attacks 🔐
+weight: 1
+title: Python 🔐
 ---
 
 🔐

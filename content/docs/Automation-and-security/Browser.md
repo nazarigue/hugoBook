@@ -5,4 +5,4 @@ weight: 2
 title: Browser vulnerability 🔐
 ---
 
-1
+🔐
