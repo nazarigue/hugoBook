@@ -1,5 +1,5 @@
 ---
-title: Learning to use keyboard ✅
+title: Learning to use keyboard
 weight: 1
 ---
 # Commands are the key to efficiency

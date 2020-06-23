@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Webhooks ✅
+title: Webhooks
 ---
 
 # Webhook is a way to send structured data to other service

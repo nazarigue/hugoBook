@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Hacking LinkedIn ✅
+title: Hacking LinkedIn
 ---
 
 ## How to get Investors, New Employees, New Opportunites in Linkedin by doing nothing?

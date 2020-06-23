@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Instagram Automation ✅
+title: Instagram Automation
 ---
 
 ## Make Instagram work for you when you drink coffee.

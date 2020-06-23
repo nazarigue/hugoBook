@@ -1,5 +1,5 @@
 ---
-title: 'Inspecting Web Pages ✅'
+title: 'Inspecting Web Pages'
 draft: false
 weight: 4
 ---

@@ -2,7 +2,7 @@
 bookCollapseSection: false
 bookFlatSection: false
 weight: 1
-title: Materials ✅
+title: Materials
 ---
 
 # Materials mentioned in the lecture 26-04-2020

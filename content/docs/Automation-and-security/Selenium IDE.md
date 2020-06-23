@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Selenium IDE ✅
+title: Selenium IDE 
 ---
 
 # Powerful driver that is built for testing, but not only.
