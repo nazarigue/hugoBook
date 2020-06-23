@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-## Here is a comprehesive list of technologies and topics regarding web
+## Here is a comprehensive list of technologies and topics regarding web
 
 [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
