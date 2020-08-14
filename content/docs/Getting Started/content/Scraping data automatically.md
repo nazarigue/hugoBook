@@ -27,7 +27,7 @@ Take any news portal and find if they have any RSS feed available.
 
 Usually the easiest way is to find it from inspect console.
 
-![](2020-08-14-14-39-05.png)
+![](/2020-08-14-14-39-05.png)
 
 We take any of the URL-s and add it to SHEETS formula.
 
@@ -46,15 +46,15 @@ Another example:
 
 Look for RSS feed
 
-![](2020-08-14-16-25-38.png)
+![](/2020-08-14-16-25-38.png)
 
 Here is how the URL looks like and the content in it
 
-![](2020-08-14-16-25-54.png)
+![](/2020-08-14-16-25-54.png)
 
 With query `=IMPORTFEED("https://blog.google/rss","items",true,100)` we get these results:
 
-![](2020-08-14-16-30-48.png)
+![](/2020-08-14-16-30-48.png)
 
 Summaries are really long, so we want to have only titles and URL-s
 
@@ -62,13 +62,31 @@ For title cell `=IMPORTFEED("https://blog.google/rss","items title",true,100)`
 
 For url cell `=IMPORTFEED("https://blog.google/rss","items url",true,100)`
 
-![](2020-08-14-16-33-14.png)
+![](/2020-08-14-16-33-14.png)
 
 Looks much better!
 
-### Next we will use `importhtml`
+___
+
+## 2. Next we will use `importhtml`
 
 `importhtml`
+
+So, `importhml` pulls lists and tables from the page.
+
+First use the formula
+
+`=IMPORTHTML("https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)","table",8)`
+
+So, the structure is as follows:
+
+1. Url where the table is
+2. choose "table" or "list" element
+3. the index of the element, in our case is the 8th table on the page, since there are many of them
+  
+![](/2020-08-14-17-02-11.png)
+
+and we are getting the table content to our table.
 
 Here is what we will do:
 
