@@ -1,11 +1,74 @@
 ---
-title: 'Automated Data Scraping 🔐'
+title: 'Automated Data Scraping '
 bookFlatSection: true
 date: 2019-02-11T19:27:37+10:00
 draft: false
 weight: 4
 ---
-# Retrieving data from URL via XPath and HTML in Google Sheets
+
+There are multiple ways how you can automate data scraping.
+
+1. Use Google Sheets
+2. Use services that can have simple GUI
+3. Code yourself a scraper
+
+## 1. Scraping data in Google Sheets
+
+There are 3 formulas to scrape online data by default that you can use with Google Sheets.
+1. `=importxml` - to get any data from web via having URL and XPath
+2. `=importfeed` - to get structured ATOM or RSS feed
+3. `=importhtml` - retrieve only list or table element from URL
+
+### We will start from the most simple one, `importfeed`
+
+
+Take any news portal and find if they have any RSS feed available.
+
+
+Usually the easiest way is to find it from inspect console.
+
+![](2020-08-14-14-39-05.png)
+
+We take any of the URL-s and add it to SHEETS formula.
+
+`=IMPORTFEED("https://feeds2.feedburner.com/delfiuudised","items summary",false,100)`
+
+- First we provide url
+- Second, elements we want to have
+- Third, headers if we want to include `true` or `false` 
+- Fourth, amount of feed items
+
+You can check documentation on specific query details [here](https://support.google.com/docs/answer/3093337?hl=en-419).
+
+Another example:
+
+`blog.google` 
+
+Look for RSS feed
+
+![](2020-08-14-16-25-38.png)
+
+Here is how the URL looks like and the content in it
+
+![](2020-08-14-16-25-54.png)
+
+With query `=IMPORTFEED("https://blog.google/rss","items",true,100)` we get these results:
+
+![](2020-08-14-16-30-48.png)
+
+Summaries are really long, so we want to have only titles and URL-s
+
+For title cell `=IMPORTFEED("https://blog.google/rss","items title",true,100)`
+
+For url cell `=IMPORTFEED("https://blog.google/rss","items url",true,100)`
+
+![](2020-08-14-16-33-14.png)
+
+Looks much better!
+
+### Next we will use `importhtml`
+
+`importhtml`
 
 Here is what we will do:
 
@@ -19,51 +82,3 @@ Here's the XPath that will will use: `=IMPORTXML("https://learnui.design/blog/10
 
 
 [Sheets file XPath](https://docs.google.com/spreadsheets/d/1fy2en_Ql-8kMj5e_suqOEuehTAPo55lwBp3gFY2Sr9M/edit?usp=sharing "XPath Sheets Link" )
-
-## This part will be fully unlocked at the lecture.
-
-{{< hint green >}}
-**Registration**  
-All participants must register and be a part of feedback infrastructure.\
-Register here 👇
-{{< /hint >}}
-
-{{< button href="https://nazdatascience.typeform.com/to/cIKCtN" >}}Register now{{< /button >}}
-
-
-
-# Schedule
-
-{{< hint info >}}
-**First lecture**  
-First lecture starts at **26.04.2020** 10:00-13:00. 
-{{< /hint >}}
-{{< hint info >}}
-**Second lecture**  
-First lecture starts at **03.05.2020** 10:00-13:00.
-{{< /hint >}}
-{{< hint info >}}
-**Second lecture**  
-First lecture starts at **10.05.2020** 10:00-13:00.
-{{< /hint >}}
-
-# Add it to your calendar
-
-{{< button href="https://calendar.google.com/calendar/ical/aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com/public/basic.ics" >}}Import Calendar {{< /button >}}
-{{< button href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWg2bWhwYms2c2E2MG0xcG92djNydGN1bW5fMjAyMDA0MjZUMDcwMDAwWiBhbGlnbmVyLmlvX2tkOXR2bGc2aTdwYTRwZzNrM2toOTVtb3VrQGc&tmsrc=aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com&scp=ALL" >}}Google Calendar Invite {{< /button >}}
-
-
-# Prerequisites for software:
-{{< hint danger >}}
-- Computer
-- Google Hangouts Account
-- Latest OS on any system, Mac or Windows
-- Latest Chrome or Chromium-based browser
-- Gmail account
-{{< /hint >}}
-
-
-
-{{< button href="https://www.brave.com" >}}Get Brave browser {{< /button >}}
-
-{{< button href="https://www.google.com/chrome/" >}}Get Chrome browser {{< /button >}}
