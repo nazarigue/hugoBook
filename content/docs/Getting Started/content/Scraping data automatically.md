@@ -88,6 +88,9 @@ So, the structure is as follows:
 
 and we are getting the table content to our table.
 
+___
+
+## 3. The hardest part: `importxml`
 Here is what we will do:
 
 Take a website and pull out data to Google sheets via `=IMPORTXML()` function. [Formula documentation we can find here](https://support.google.com/docs/answer/3093342?hl=en "IMPORTXML Google Sheets").
