@@ -282,11 +282,6 @@ notoc: true
 
 Here is the corresponding code inside of the template:
 
-      {{ if not .Params.notoc }}
-        <div id="toc" class="well col-md-4 col-sm-6">
-        {{ .TableOfContents }}
-        </div>
-      {{ end }}
 
 
 
