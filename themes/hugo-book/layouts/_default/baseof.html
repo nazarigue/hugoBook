@@ -4,12 +4,8 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
-  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_32e28e3ccd7e20e55bef0d69dab2f5465'
-    });
-</script>
+  <script src="https://chat.staging.translatewise.com/cw/chat/bundle.js" tw-client-key="brnp0ce7ktyu9rdxhtwbagss" async=""></script>
+
 </head>
 
 <body>
@@ -19,7 +15,7 @@
       {{ template "menu" . }} <!-- Left menu Content -->
     </aside>
 
-    <div class="book-page">
+    <div class="book-page col-8">
       <header class="book-header">
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>
@@ -38,11 +34,7 @@
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-    <aside class="book-toc">
-      {{ template "toc" . }} <!-- Table of Contents -->
-    </aside>
-    {{ end }}
+  
   </main>
 
   {{ partial "docs/inject/body" . }}
@@ -57,12 +49,6 @@
 {{ define "header" }}
   {{ partial "docs/header" . }}
 
-  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-    <input type="checkbox" class="hidden" id="toc-control" />
-    <aside class="hidden clearfix">
-      {{ template "toc" . }}
-    </aside>
-  {{ end }}
 {{ end }}
 
 {{ define "footer" }}
@@ -83,6 +69,3 @@
   </article>
 {{ end }}
 
-{{ define "toc" }}
-  {{ partial "docs/toc" . }}
-{{ end }}
