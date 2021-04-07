@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Pandas and Python 🔐
+title: Pandas DataFrame 🔐
 ---
 
 🔐

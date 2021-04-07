@@ -2,7 +2,7 @@
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1
-title: Databox 🔐
+title: Pandas Categorical Data 🔐
 ---
 
 🔐

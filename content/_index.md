@@ -5,22 +5,31 @@ type: docs
 
 ![Go Academy](og-go.png "Go Academy Banner")
 
-# 📜Growth Crash Course Description
+# 📜Data Science and ML beginner course 24-25 April 2021
 
-This course is designed for beginners to enrich knowledge about computer and the internet. How obvious it isn’t, 90% of computer and Internet users are illiterate when it comes to a wider and deeper knowledge on how it actually works. The goal of this course is bring this stat 1% down.
+> Wonder how companies are predicting user behavior? Classify automatically customer feedback? Predict housing market trend? Predict next song recommendation on Spotify?
 
-This is not systematic going deep into details course. This is a roadmap, to show what can you do and what you don't know. If this sparks any initiative inside you, it has already accomplished its mission. Some parts are hectic, since the human brain needs to be injected some times different dimensions of information that the brain itself will organise later.
+This course is for you! Get hands on with Jupyter Notebook, learn Pandas and extend your knowledge in data science just in 6 hours.
 
-The main outcome of this course is to deliver knowledge, that is useful to you. Remember, useful means something you can use, to achieve your goals!
+Practical, beginner-friendly free course with step-by-step simple explanation.
+
+Here what you will learn:
+
+- Use the best library for data science: Pandas
+- Know how to clean and prepare the data.
+- Know what ML algorhithms use for text classification
+- Solve simple Natural Language Processing Tasks
+- Predict House prices
+- Create your own spam detector
 
 **Nazari Goudin**
 
-Co-Founder of Aligner. Data Science and Management PhD Student. Write to me at [LinkedIn](https://www.linkedin.com/in/nazari-goudin-556a55165/ "Naz LinkedIn Profile").
+Co-Founder of TranslateWise. Data Science and Management PhD Student. Write to me at [LinkedIn](https://www.linkedin.com/in/nazari-goudin-556a55165/ "Naz LinkedIn Profile").
 
 
 {{< hint green >}}
 **Registration**  
-All participants must register and be a part of feedback infrastructure.\
+All participants must register and be a part of the feedback infrastructure.\
 Register here 👇
 {{< /hint >}}
 
@@ -32,21 +41,13 @@ Register here 👇
 
 {{< hint info >}}
 **First lecture**  
-First lecture starts at **26.04.2020** 10:00-13:00. 
+First lecture starts at **24.04.2021** 10:00-13:00. 
 {{< /hint >}}
 {{< hint info >}}
 **Second lecture**  
-First lecture starts at **03.05.2020** 10:00-13:00.
-{{< /hint >}}
-{{< hint info >}}
-**Second lecture**  
-First lecture starts at **10.05.2020** 10:00-13:00.
+Second lecture starts at **25.04.2021** 10:00-13:00.
 {{< /hint >}}
 
-# Add it to your calendar
-
-{{< button href="https://calendar.google.com/calendar/ical/aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com/public/basic.ics" >}}Import Calendar {{< /button >}}
-{{< button href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NWg2bWhwYms2c2E2MG0xcG92djNydGN1bW5fMjAyMDA0MjZUMDcwMDAwWiBhbGlnbmVyLmlvX2tkOXR2bGc2aTdwYTRwZzNrM2toOTVtb3VrQGc&tmsrc=aligner.io_kd9tvlg6i7pa4pg3k3kh95mouk%40group.calendar.google.com&scp=ALL" >}}Google Calendar Invite {{< /button >}}
 
 
 # Prerequisites for software:
