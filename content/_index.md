@@ -5,7 +5,7 @@ type: docs
 
 ![Go Academy](og-go.png "Go Academy Banner")
 
-# 📜Data Science and ML beginner course 24-25 April 2021
+# 📜Data Science and Machine Learning for Startups 24-25 April 2021
 
 > Wonder how companies are predicting user behavior? Classify automatically customer feedback? Predict housing market trend? Predict next song recommendation on Spotify?
 
