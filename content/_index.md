@@ -3,12 +3,12 @@ title: Welcome to Go Academy!
 type: docs
 ---
 
-![Go Academy](og-go.png "Go Academy Banner")
+![Go Academy](Facebook_post.png "Go Academy Banner")
 
 # 📜Data Science and Machine Learning for Startups 24-25 April 2021
 
 > Wonder how companies are predicting user behavior? Classify automatically customer feedback? Predict housing market trend? Predict next song recommendation on Spotify?
-
+s
 This course is for you! Get hands on with Jupyter Notebook, learn Pandas and extend your knowledge in data science just in 6 hours.
 
 Practical, beginner-friendly free course with step-by-step simple explanation.
