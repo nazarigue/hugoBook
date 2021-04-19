@@ -1,5 +1,5 @@
 ---
-title: Welcome to Go Academy!
+title: Welcome to GoAcademy!
 type: docs
 ---
 
