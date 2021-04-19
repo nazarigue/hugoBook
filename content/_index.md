@@ -8,7 +8,7 @@ type: docs
 # 📜Data Science and Machine Learning for Startups 24-25 April 2021
 
 > Wonder how companies are predicting user behavior? Classify automatically customer feedback? Predict housing market trend? Predict next song recommendation on Spotify?
-s
+
 This course is for you! Get hands on with Jupyter Notebook, learn Pandas and extend your knowledge in data science just in 6 hours.
 
 Practical, beginner-friendly free course with step-by-step simple explanation.
@@ -17,7 +17,7 @@ Here what you will learn:
 
 - Use the best library for data science: Pandas
 - Know how to clean and prepare the data.
-- Know what ML algorhithms use for text classification
+- Know what ML algorithms use for text classification
 - Solve simple Natural Language Processing Tasks
 - Predict House prices
 - Create your own spam detector
