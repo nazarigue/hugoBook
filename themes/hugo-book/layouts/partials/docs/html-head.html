@@ -3,7 +3,9 @@
 <meta name="description" content="{{ default .Summary .Description }}">
 <meta name="og:description" content="{{ default .Summary .Description }}">
 <meta property="og:image" content="{{ "Facebook_post.png" | absURL }}">
-
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:title" content="GoAcademy Free Data Science Course for Beginners starts April 24th.">
+<meta property="og:type" content="website" />
 
 <title>{{ partial "docs/title" . }} | {{ .Site.Title -}}</title>
 <link rel="icon" href="{{ "Frame 319.png" | relURL }}" type="image/x-icon">
