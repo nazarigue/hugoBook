@@ -31,7 +31,7 @@ enableGitInfo = false
 # [[menu.before]]
 #[[menu.after]]
 #  name = "Github"
-#  url = "https://github.com/alex-shpak/hugo-book"
+#  url = ""
 #  weight = 10
 
 [[menu.after]]
