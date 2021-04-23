@@ -19,6 +19,7 @@ Here what you will learn:
 - Know how to clean and prepare the data.
 - Know what ML algorithms use for text classification
 - Solve simple Natural Language Processing Tasks
+- understand sci-kit learn priciples
 - Predict House prices
 - Create your own spam detector
 
