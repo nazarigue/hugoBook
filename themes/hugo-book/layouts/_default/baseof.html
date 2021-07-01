@@ -4,7 +4,8 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
-  <script src="https://chat.staging.translatewise.com/cw/chat/latest.js" tw-env='staging' tw-client-key="8v6ora4f0ow94bezfn4xygss" async></script>
+  <script src="https://chat.staging.translatewise.com/cw/chat/latest.js" height-offset="-40" tw-env='staging'
+    tw-client-key="8v6ora4f0ow94bezfn4xygss" async></script>
 
 </head>
 
@@ -12,29 +13,34 @@
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
-      {{ template "menu" . }} <!-- Left menu Content -->
+      {{ template "menu" . }}
+      <!-- Left menu Content -->
     </aside>
 
     <div class="book-page col-8">
       <header class="book-header">
-        {{ template "header" . }} <!-- Mobile layout header -->
+        {{ template "header" . }}
+        <!-- Mobile layout header -->
       </header>
 
       {{ partial "docs/inject/content-before" . }}
-      {{ template "main" . }} <!-- Page Content -->
+      {{ template "main" . }}
+      <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
       <footer class="book-footer">
-        {{ template "footer" . }} <!-- Footer under page content -->
+        {{ template "footer" . }}
+        <!-- Footer under page content -->
         {{ partial "docs/inject/footer" . }}
       </footer>
 
-      {{ template "comments" . }} <!-- Comments block -->
+      {{ template "comments" . }}
+      <!-- Comments block -->
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-  
+
   </main>
 
   {{ partial "docs/inject/body" . }}
@@ -43,29 +49,28 @@
 </html>
 
 {{ define "menu" }}
-  {{ partial "docs/menu" . }}
+{{ partial "docs/menu" . }}
 {{ end }}
 
 {{ define "header" }}
-  {{ partial "docs/header" . }}
+{{ partial "docs/header" . }}
 
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/footer" . }}
+{{ partial "docs/footer" . }}
 {{ end }}
 
 {{ define "comments" }}
-  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
-  <div class="book-comments">
-    {{- partial "docs/comments" . -}}
-  </div>
-  {{ end }}
+{{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+<div class="book-comments">
+  {{- partial "docs/comments" . -}}
+</div>
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown">
-    {{- .Content -}}
-  </article>
+<article class="markdown">
+  {{- .Content -}}
+</article>
 {{ end }}
-
